@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.column {
+  flex: 1;
+  flex-direction: column;
+}
+
+.strike {
+  text-decoration: line-through;
+}
